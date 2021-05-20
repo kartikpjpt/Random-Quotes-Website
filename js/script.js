@@ -64,3 +64,19 @@ newQuoteBtn.addEventListener('click',newQuote);
 
 getQuote();
 
+//FIREBASE 
+
+// Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyC8uC1uGF15kWaaFSn2yhvrhUlh7Jk3L50",
+    authDomain: "random-quotes-site.firebaseapp.com",
+    projectId: "random-quotes-site",
+    storageBucket: "random-quotes-site.appspot.com",
+    messagingSenderId: "245497052469",
+    appId: "1:245497052469:web:a23e50c2418e577441e07c",
+    measurementId: "G-JF52JZTYPE"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
