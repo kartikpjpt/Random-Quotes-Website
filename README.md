@@ -9,4 +9,4 @@ CSS3,
 Javascrit,
 ES5. 
   
-You can see the demo of the above code here: https://kartikpjpt.github.io/infinite_scroll/
+You can see the demo of the above code here: https://kartikpjpt.github.io/Random-Quotes-Website/
